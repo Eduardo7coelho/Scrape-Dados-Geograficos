@@ -7,8 +7,7 @@ Este projeto realiza a extração, tratamento e visualização de dados dos muni
 - Power BI
 - Wikipedeia (Fonte de dados para realizar a raspagem dos dados)
 
-## Estrutura do Projeto
-/scripts
+## Estrutura do Projeto: Scripts
 - Scrap_Dados_municipios.py  -  Extrai a população, área, Unidade Federativa e se o município possui litoral
 - Scrap_Bandeiras.py  -  Coleta a URL da bandeira dos estados 
 - Estados_Coordenadas.py  -  Gera as coordenadas centralizadas dos estados, útil no visual Mapa utilizado no Power BI
@@ -21,6 +20,11 @@ Este projeto realiza a extração, tratamento e visualização de dados dos muni
   
 ## Executar os scripts
 - Certifique-se antes de executar os scripts de ter o Python 3.10+ e as bibliotecas necessárias instaladas: pip install pandas requests beautifulsoup4 lxml
+
+## Preview do Dashboard
+![Dashboard Nacional](img/Geo-Nacional.png)
+![Dashboard Regional](img/Geo-Regional.png)
+![Dashboard Estadual](img/Geo-Estadual.png)
 
 ## Autor
 Desenvolvido por Eduardo Coelho.
